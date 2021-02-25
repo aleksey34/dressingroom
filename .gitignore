@@ -1,0 +1,7 @@
+/vendor
+/vendor/
+/.sass-cache
+/scss/.sass-cache
+/.idea
+/mind-master
+/.idea/

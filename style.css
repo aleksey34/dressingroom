@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*
+Theme Name: dressingroom
+Template: oceanwp
+
+
+Description: Дочерняя тема для темы oceanwp
+Site: dressingroom
+Author: aleksey34
+skype: aleksey34
+email: aleksey3400@yandex.ru
+Version: 1.0
+*/
+.omw-open-modal {
+  color: #000 !important;
+  background-color: #eee;
+  padding: 15px 15px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s; }
+  .omw-open-modal:hover {
+    color: #000 !important;
+    background-color: #91e542; }
+
+.vi-wpvs-option-wrap.vi-wpvs-option-wrap-default {
+  padding: 0 !important;
+  transition: all 0.5s;
+  background-color: transparent !important;
+  border: 2px solid rgba(0, 0, 0, 0.4); }
+  .vi-wpvs-option-wrap.vi-wpvs-option-wrap-default:hover {
+    padding: 0 !important;
+    box-shadow: 0 0 2px 3px #ddd !important;
+    border: 2px solid #91e542; }
+
+.vi-wpvs-option-wrap.vi-wpvs-option-wrap-hover {
+  background-color: transparent !important;
+  transition: all 0.5s;
+  padding: 0 !important;
+  border: 2px solid #91e542; }
+
+.vi-wpvs-option-wrap.vi-wpvs-option-wrap-selected {
+  background-color: transparent !important;
+  transition: all 0.5s;
+  padding: 0 !important;
+  border: 2px solid #91e542;
+  box-shadow: 0 0 2px 3px #91e542; }
+
+.vi-wpvs-variation-wrap-wrap {
+  transform: translateX(-2.5rem); }
+
+.dressingroom-logo {
+  width: 230px;
+  height: 50px; }
+  .dressingroom-logo a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-flow: column; }
+    .dressingroom-logo a:hover, .dressingroom-logo a:active, .dressingroom-logo a:visited {
+      text-decoration: none; }
+    .dressingroom-logo a span:first-child {
+      text-transform: uppercase;
+      color: #000 !important;
+      font-size: 4.5rem;
+      font-weight: 900;
+      line-height: 0.9; }
+    .dressingroom-logo a span:last-child {
+      color: #64a73c !important;
+      text-shadow: 2px 1px 1px #000;
+      font-size: 14px;
+      font-weight: bold; }
+
+.woocommerce-checkout #billing_first_name_field {
+  width: 100%; }
+.woocommerce-checkout #billing_country_field strong:after {
+  content: "Москва и МО.";
+  padding-left: 5px;
+  display: inline-block; }
+
+#site-logo {
+  position: absolute;
+  background-color: transparent;
+  width: 5px;
+  left: -30rem; }
+  #site-logo #site-logo-inner a {
+    color: transparent;
+    font-size: 2px; }
+
+/*# sourceMappingURL=style.css.map */

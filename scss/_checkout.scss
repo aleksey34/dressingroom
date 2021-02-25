@@ -1,0 +1,13 @@
+.woocommerce-checkout{
+  #billing_first_name_field{
+    width: 100%;
+  }
+  #billing_country_field strong{
+
+    &:after{
+      content: "Москва и МО.";
+      padding-left: 5px;
+      display: inline-block;;
+    }
+  }
+}

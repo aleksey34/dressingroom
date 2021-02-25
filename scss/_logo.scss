@@ -1,0 +1,44 @@
+.dressingroom-logo{
+width: 230px;
+  height: 50px;
+  a{
+text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    &:hover , &:active , &:visited{
+      text-decoration: none;
+
+    }
+    span{
+
+      &:first-child{
+        text-transform: uppercase;
+        color: #000 !important;
+        font-size: 4.5rem;
+        font-weight: 900;
+        line-height: 0.9;
+      }
+      &:last-child{
+color: rgb(100 , 167 , 60) !important;
+        text-shadow:2px 1px 1px #000;
+        font-size:14px;
+        font-weight: bold;
+      }
+    }
+
+
+  }
+
+
+
+}
+
+// align in elementor - top header
+//@media screen and (max-width: 600px) {
+//  #top-header-section  #top-header-logo-wrap {
+//text-align: center;
+//
+//  }
+//}
