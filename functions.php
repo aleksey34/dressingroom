@@ -8,6 +8,11 @@
  */
 //require_once  get_stylesheet_directory() . "/inc/carbon-fields-init.php";
 
+/**
+ * wp login page
+ * change login img
+ */
+require_once  get_stylesheet_directory(). '/inc/wp-start-login-page.php';
 
 /**
  * Add TGM settings.
